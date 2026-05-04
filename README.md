@@ -10,7 +10,7 @@ To move from a raw CSV format into a structured relational environment, I create
 Dataset :
 <img width="1920" height="1005" alt="Screenshot 2026-05-04 190430" src="https://github.com/user-attachments/assets/d3310182-ea2e-477e-9faa-184d917b58e5" />
 
-
+ER Diagram:
 
 <img width="1920" height="1012" alt="Screenshot 2026-05-04 191039" src="https://github.com/user-attachments/assets/c671b5bc-a14e-4da6-8051-996e5a7d21c2" />
 
@@ -71,20 +71,18 @@ Triggers: Implemented a BEFORE DELETE trigger to prevent the accidental removal 
 
 Indexes: Created indexes on high-traffic columns (like job_title and salary_USD) to optimize query performance for large-scale analysis.
 
+Functions:
 
 <img width="953" height="496" alt="Screenshot 2026-05-04 192902" src="https://github.com/user-attachments/assets/01ca0c9d-52b8-4392-94bf-a064cc1e3ada" />
 
 
 
-
-
+Procedure and view:
 <img width="953" height="502" alt="Screenshot 2026-05-04 193021" src="https://github.com/user-attachments/assets/95cb99b2-9837-4de3-b7df-058d7efb95f3" />
 
 
 
-
-
-
+Triggers and Indexes:
 <img width="953" height="499" alt="Screenshot 2026-05-04 193108" src="https://github.com/user-attachments/assets/8d029c54-6665-4229-b5dc-728d4d4536df" />
 
 
