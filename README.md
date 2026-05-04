@@ -7,10 +7,8 @@ This repository contains a comprehensive SQL-based data Analytics project using 
 To move from a raw CSV format into a structured relational environment, I create a custom database schema in MySQL and utilized the Table Data Import Wizard to manage the data ingestion process. This automated import ensured data type consistency and integrity, allowing me to immediately transition from raw storage to advanced SQL manipulation, including schema enhancements.
 
 
-
+Dataset :
 <img width="1920" height="1005" alt="Screenshot 2026-05-04 190430" src="https://github.com/user-attachments/assets/d3310182-ea2e-477e-9faa-184d917b58e5" />
-
-
 
 
 
@@ -43,10 +41,8 @@ WHERE & HAVING: Filtered high-growth roles and used HAVING to isolate top-perfor
 
 GROUP BY: Aggregated data by job_title and top_skill to find market leaders.
 
+
 <img width="950" height="496" alt="Screenshot 2026-05-04 192451" src="https://github.com/user-attachments/assets/5ba1c5f7-cd2a-428c-aaea-4f754b53841b" />
-
-
-
 
 
 3. Data Transformation & Cleaning:
