@@ -11,6 +11,9 @@ To move from a raw CSV format into a structured relational environment, I create
 <img width="1920" height="1005" alt="Screenshot 2026-05-04 190430" src="https://github.com/user-attachments/assets/d3310182-ea2e-477e-9faa-184d917b58e5" />
 
 
+
+
+
 <img width="1920" height="1012" alt="Screenshot 2026-05-04 191039" src="https://github.com/user-attachments/assets/c671b5bc-a14e-4da6-8051-996e5a7d21c2" />
 
 
@@ -43,6 +46,9 @@ GROUP BY: Aggregated data by job_title and top_skill to find market leaders.
 <img width="950" height="496" alt="Screenshot 2026-05-04 192451" src="https://github.com/user-attachments/assets/5ba1c5f7-cd2a-428c-aaea-4f754b53841b" />
 
 
+
+
+
 3. Data Transformation & Cleaning:
    
 Used conditional logic to normalize and clean the dataset:
@@ -53,6 +59,8 @@ Safe Update Mode: Managed session-level settings to perform bulk updates securel
 
 
 <img width="1920" height="1008" alt="Screenshot 2026-05-04 192255" src="https://github.com/user-attachments/assets/737d3b99-bf80-457b-95b0-36938d5b4ae0" />
+
+
 
 
 4. Advanced Database Objects:
@@ -70,9 +78,19 @@ Indexes: Created indexes on high-traffic columns (like job_title and salary_USD)
 
 <img width="953" height="496" alt="Screenshot 2026-05-04 192902" src="https://github.com/user-attachments/assets/01ca0c9d-52b8-4392-94bf-a064cc1e3ada" />
 
+
+
+
+
 <img width="953" height="502" alt="Screenshot 2026-05-04 193021" src="https://github.com/user-attachments/assets/95cb99b2-9837-4de3-b7df-058d7efb95f3" />
 
+
+
+
+
+
 <img width="953" height="499" alt="Screenshot 2026-05-04 193108" src="https://github.com/user-attachments/assets/8d029c54-6665-4229-b5dc-728d4d4536df" />
+
 
 
 
