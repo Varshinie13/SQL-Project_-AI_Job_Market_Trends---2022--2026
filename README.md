@@ -123,35 +123,9 @@ Visualization Process:
    
 Raw Data: Imported a dataset containing global AI job roles, salaries, and company types.
 
-Cleaning: Used MySQL to handle missing values, standardize job titles (e.g., merging "AI Dev" into "AI Engineer"), and filter data for specific regions like Ireland and Germany.
+Cleaning: Used MySQL to handle missing values, standardize job titles (e.g., find out "Big Tech", "Freelance","Tech Hub"), and filter data for specific regions like Ireland and Germany.
 
-Key Queries: Included in the scripts/ folder are queries for calculating average salaries by skill and year-over-year job growth.
-
-2. Load & Visualize (Tableau):
-   
-To move the data from the database to the dashboard, I followed these steps:
-
-Extraction: Exported the cleaned SQL results as a Master CSV (AI_Job_Market_Trends.csv) to maintain data integrity.
-
-Data Connection: Loaded the CSV into Tableau Public as a live text file connection.
-
-Calculated Fields & Bins: * Created Salary Bins ($20k intervals) to analyze pay distribution.
-
-Developed a Metric Switcher using Parameters to toggle between "Average Salary" and "Job Count."
-
-Implemented a Skill Filter with an "All" option for deep-dive analysis.
-
-📈 Interactive Dashboard:
-
-👉 Click Here to View the Live Interactive Dashboard
-
-1. Extract & Transform (SQL):
-   
-Raw Data: Imported a dataset containing global AI job roles, salaries, and company types.
-
-Cleaning: Used MySQL to handle missing values, standardize job titles (e.g., merging "AI Dev" into "AI Engineer"), and filter data for specific regions like Ireland and Germany.
-
-Key Queries: Included in the scripts/ folder are queries for calculating average salaries by skill and year-over-year job growth.
+Key Queries: Used queries for calculating average salaries by skill and year-over-year job growth.
 
 2. Load & Visualize (Tableau):
    
@@ -161,11 +135,12 @@ Extraction: Exported the cleaned SQL results as a Master CSV (AI_Job_Market_Tren
 
 Data Connection: Loaded the CSV into Tableau Public as a live text file connection.
 
-Calculated Fields & Bins: * Created Salary Bins ($20k intervals) to analyze pay distribution.
+Calculated Fields & Bins: * Created Average Salary Bins ($20k intervals) to analyze pay distribution.
 
-Developed a Metric Switcher using Parameters to toggle between "Average Salary" and "Job Count."
+Developed a Metric Switcher using Parameters to toggle between "Average Salary Metric" and "Job Count."
 
 Implemented a Skill Filter with an "All" option for deep-dive analysis.
+
 
 📈 Interactive Dashboard:
 
@@ -184,6 +159,6 @@ Dashboard 2:
 <br><br>
 
 🏁 Conclusion
-This project demonstrates my ability to not only query data but to build a robust database environment. By implementing Triggers and Indexes, I've ensured that this AI Job Market dataset is both high-performing and protected against data loss. 
+This project demonstrates my ability to not only query data but to build a robust database environment and connect the Database into visualization Tool, and help me to learn the ETL process from Querying to Visualize. By implementing Triggers and Indexes, I've ensured that this AI Job Market dataset is both high-performing and protected against data loss. 
 
 #DataAnalytics #DataDriven #Analytics #SQL  #Python #PowerBI #Tableau #Excel #DataAnalysis #LearningToCode #DataVisualization #CareerTransition #DataStrategy #BusinessIntelligence #TechTrends
