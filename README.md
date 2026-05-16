@@ -160,8 +160,6 @@ Dashboard 2:
 
 🏁 Conclusion:
 
-<br><br>
-
 This project demonstrates my ability to not only query data but to build a robust database environment and connect the Database into visualization Tool, and help me to learn the ETL process from Querying to Visualize. By implementing Triggers and Indexes, I've ensured that this AI Job Market dataset is both high-performing and protected against data loss. 
 
 #DataAnalytics #DataDriven #Analytics #SQL  #Python #PowerBI #Tableau #Excel #DataAnalysis #LearningToCode #DataVisualization #CareerTransition #DataStrategy #BusinessIntelligence #TechTrends
