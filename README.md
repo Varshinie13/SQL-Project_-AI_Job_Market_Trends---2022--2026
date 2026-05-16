@@ -117,6 +117,72 @@ Remote Work Adoption: By filtering the remote column, the data likely shows that
 
 Geographic Centers: The data reveals which countries (like USA, Germany, and India) are emerging as the strongest hubs for AI job volume versus where the highest average salaries are located.
 
+Visualization Process:
+
+1. Extract & Transform (SQL):
+   
+Raw Data: Imported a dataset containing global AI job roles, salaries, and company types.
+
+Cleaning: Used MySQL to handle missing values, standardize job titles (e.g., merging "AI Dev" into "AI Engineer"), and filter data for specific regions like Ireland and Germany.
+
+Key Queries: Included in the scripts/ folder are queries for calculating average salaries by skill and year-over-year job growth.
+
+2. Load & Visualize (Tableau):
+   
+To move the data from the database to the dashboard, I followed these steps:
+
+Extraction: Exported the cleaned SQL results as a Master CSV (AI_Job_Market_Trends.csv) to maintain data integrity.
+
+Data Connection: Loaded the CSV into Tableau Public as a live text file connection.
+
+Calculated Fields & Bins: * Created Salary Bins ($20k intervals) to analyze pay distribution.
+
+Developed a Metric Switcher using Parameters to toggle between "Average Salary" and "Job Count."
+
+Implemented a Skill Filter with an "All" option for deep-dive analysis.
+
+📈 Interactive Dashboard:
+
+👉 Click Here to View the Live Interactive Dashboard
+
+1. Extract & Transform (SQL):
+   
+Raw Data: Imported a dataset containing global AI job roles, salaries, and company types.
+
+Cleaning: Used MySQL to handle missing values, standardize job titles (e.g., merging "AI Dev" into "AI Engineer"), and filter data for specific regions like Ireland and Germany.
+
+Key Queries: Included in the scripts/ folder are queries for calculating average salaries by skill and year-over-year job growth.
+
+2. Load & Visualize (Tableau):
+   
+To move the data from the database to the dashboard, I followed these steps:
+
+Extraction: Exported the cleaned SQL results as a Master CSV (AI_Job_Market_Trends.csv) to maintain data integrity.
+
+Data Connection: Loaded the CSV into Tableau Public as a live text file connection.
+
+Calculated Fields & Bins: * Created Salary Bins ($20k intervals) to analyze pay distribution.
+
+Developed a Metric Switcher using Parameters to toggle between "Average Salary" and "Job Count."
+
+Implemented a Skill Filter with an "All" option for deep-dive analysis.
+
+📈 Interactive Dashboard:
+
+👉 Click Here to View the Live Interactive Dashboard
+
+(https://public.tableau.com/app/profile/varshinie.sivakumar/viz/EmployabilityintheAgeofAI/Dashboard1)
+
+Dashboard 1:
+
+<img width="953" height="533" alt="Screenshot 2026-05-16 065815" src="https://github.com/user-attachments/assets/9884244b-c3d6-460e-bce3-1dc12c0b7c47" />
+
+Dashboard 2:
+
+<img width="960" height="540" alt="Screenshot 2026-05-16 065826" src="https://github.com/user-attachments/assets/0d88e7ae-6c7e-4947-baa1-b8a4279fe6a3" />
+
+<br><br>
+
 🏁 Conclusion
 This project demonstrates my ability to not only query data but to build a robust database environment. By implementing Triggers and Indexes, I've ensured that this AI Job Market dataset is both high-performing and protected against data loss. 
 
